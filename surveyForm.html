@@ -19,15 +19,23 @@
 
     body {
 
-        height: 100%;
-        background-image: linear-gradient(to right, rgba(182, 209, 188, 0.703), rgb(161, 114, 180));
-
+        height: 50%;
+        background-image: url("bg.jpeg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+        
+       
     }
-
+    
+  
     .myClass {
         display: flex;
         justify-content: center;
-        z-index: 2;
+        z-index: 6;
+        
     }
 
     #mystyle {
@@ -35,7 +43,8 @@
         width: 70%;
         margin-top: 50px;
         margin-bottom: 50px;
-        background-color: rgba(165, 42, 42, 0.422);
+        background-color: burlywood;
+        opacity: 0.85;
 
     }
 
@@ -53,8 +62,8 @@
 
 
     <div class="header">
-        <h1>Microverse Survey Form</h1>
-        <p>Thank you for taking the time to help us improve the platform</p>
+        <h1><strong>Microverse Survey Form</strong></h1>
+        <p><em> Thank you for taking the time to help us improve the platform</em></p>
     </div>
     <div class="myClass">
         <div class="container rounded-1 py-3" id="mystyle">
@@ -148,7 +157,7 @@
             </div><br><br>
 
 
-            <div class="d-grid gap-2">
+            <div class="d-grid gap-6">
                 <button class="btn btn-primary" type="button">Button</button>
             </div>
         </div><br><br>
